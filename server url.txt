@@ -1,5 +1,0 @@
-GitHub:
-	https://dozwd.github.io/portfolio/
-
-filezilla:
-	http://busker30712.dothome.co.kr/portfolio/
