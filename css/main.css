@@ -167,7 +167,7 @@ main #section1 .card_wrap .profile_wrap{
 main #section1 .card_wrap .profile{
     border: 1px solid #cccccc;
     border-radius: 10px;
-    height: 770px;
+    height: 720px;
     padding: 10px;
     margin-top: 20px;
 }
@@ -175,7 +175,7 @@ main #section1 .card_wrap .profile .imgbox{
     display: flex;
     /* border: 1px solid blue; */
     width: 350px;
-    height: 400px;
+    height: 350px;
 }
 main #section1 .card_wrap .profile .imgbox img{
     width: 100%;
@@ -186,7 +186,7 @@ main #section1 .card_wrap .profile .my{
     /* height: 350px; */
     border: 1px solid #cccccc;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
 }
 main #section1 .card_wrap .profile .my h4{
@@ -224,7 +224,7 @@ main #section1 .card_wrap .profile .skill ul li img{
 }
 main #section1 .card_wrap .logo{
     width: 500px;
-    height: 770px;
+    height: 720px;
     border: 1px solid #ccc;
     border-radius: 10px;
     /* margin: 0 auto; */
@@ -297,7 +297,7 @@ main #section1 .card_wrap .logo .pic_wrap div ,main #section1 .card_wrap .logo .
 main #section1 .card_wrap  .hobby{
     padding:10px;
     width: 1000px;
-    height: 770px;
+    height: 720px;
     border: 1px solid #ccc;
     border-radius: 10px;
     color: #fff;
@@ -384,9 +384,10 @@ main #section2 .c_info h4,main #section2 .c_info2 h4 ,main #section2 .c_info3 h4
     color: #fff;
     font-size: 50px;
 }
-main #section2 .c_info3 h5{
-    color: #fff;
-    font-size: 24px;
+main #section2 .c_info3 h5 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
 }
 main #section2 .c_info h4 span{
     color: #ff7b00;
@@ -473,6 +474,11 @@ main #section3 .c_info3{
     left: 100px;
     top: 625px;
 }
+main #section3 .c_info3 h5 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
 main #section3 .c_info h4,main #section3 .c_info2 h4 ,main #section3 .c_info3 h4{
     /* width: 100%; */
     /* border: 1px solid red; */
@@ -480,8 +486,8 @@ main #section3 .c_info h4,main #section3 .c_info2 h4 ,main #section3 .c_info3 h4
     font-size: 50px;
 }
 main #section3 .c_info3 h5{
-    color: #fff;
-    font-size: 24px;
+    /* color: #fff;
+    font-size: 24px; */
 }
 main #section3 .c_info h4 span{
     color: hsl(120, 100%, 78%);
@@ -575,9 +581,10 @@ main #section4 .c_info h4,main #section4 .c_info2 h4 ,main #section4 .c_info3 h4
     color: #fff;
     font-size: 50px;
 }
-main #section4 .c_info3 h5{
-    color: #fff;
-    font-size: 24px;
+main #section4 .c_info3 h5 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
 }
 main #section4 .c_info h4 span{
     color: #43f9ff;
@@ -670,9 +677,11 @@ main #section5 .c_info h4,main #section5 .c_info2 h4 ,main #section5 .c_info3 h4
     color: #fff;
     font-size: 50px;
 }
-main #section5 .c_info3 h5{
-    color: #fff;
-    font-size: 24px;
+
+main #section5 .c_info3 h5 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
 }
 main #section5 .c_info h4 span{
     color: #4c00ff;
@@ -770,6 +779,11 @@ main #section7 .contact .contact_wrap div{
 }
 main #section7 .contact .contact_wrap h4 a{
     color: #fff;
+}
+main #section7 .contact .contact_wrap .insta img{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
 }
 /* footer 영역 */
 footer{
